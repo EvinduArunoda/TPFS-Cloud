@@ -1,5 +1,8 @@
 const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+const issueTicket =  require('./DigitalTicket/issueTicket');
 
+exports.issueTicket = functions.https.onCall(issueTicket.handler);
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
