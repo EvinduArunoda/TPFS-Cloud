@@ -13,8 +13,27 @@
     "node": "8"
   },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.0.3",
+    "@tensorflow/tfjs": "^1.7.3",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "atob": "^2.1.2",
+    "blob": "^0.1.0",
+    "canvas": "^2.6.1",
+    "cross-blob": "^1.2.2",
+    "crypto": "^1.0.1",
+    "face-api.js": "^0.22.2",
     "firebase-admin": "^8.9.0",
-    "firebase-functions": "^3.3.0"
+    "firebase-functions": "^3.3.0",
+    "fs": "0.0.1-security",
+    "nexmo": "^2.6.0",
+    "node-fetch": "^2.6.0",
+    "os": "^0.1.1",
+    "otp-generator": "^1.1.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "twilio": "^3.42.2",
+    "typescript": "^3.8.3",
+    "util": "^0.12.3"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
